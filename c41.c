@@ -19,11 +19,11 @@ float phyth(float h, float p, float b){
 }
 
 void main(){
-	 float p,q,r;
-	 p= phyth(NAN,13,5);
+	 float s,q,r;
+	 s= phyth(NAN,13,5);
 	 q = phyth(12,NAN,6);
 	 r = phyth(5,8,NAN);
-	 printf("h=%f\n",p);
+	 printf("h=%f\n",s);
 	 printf("p=%f\n",q);
 	 printf("b=%f",r);
 }
